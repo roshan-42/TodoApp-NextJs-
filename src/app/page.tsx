@@ -1,5 +1,4 @@
 import AddTodo from "@/components/todos/AddTodo";
-import Image from "next/image";
 import { prisma } from "@/utils/prisma";
 
 async function getData() {

@@ -11,11 +11,17 @@ const AddTodo = () => {
     <div>
       <Form action={actions.createTodo}>
         <div className="gap-2">
-          <Input name="input" type="text" placeholder="Add Todo Here..." />
+          <Input
+            name="input"
+            type="text"
+            placeholder="Add Todo Here..."
+            value=""
+          />
           <Input
             name="desc"
             type="text"
             placeholder="Add description Here..."
+            value=""
           />
 
           <Button type="submit" text="Add" bgColor="bg-blue-600" />
