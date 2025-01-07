@@ -15,13 +15,13 @@ const AddTodo = () => {
             name="input"
             type="text"
             placeholder="Add Todo Here..."
-            value=""
+            // value=""
           />
           <Input
             name="desc"
             type="text"
             placeholder="Add description Here..."
-            value=""
+            // value=""
           />
 
           <Button type="submit" text="Add" bgColor="bg-blue-600" />
